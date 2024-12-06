@@ -68,7 +68,7 @@ class BitarrayRecipeC(Recipe):
 
         shutil.rmtree(destination, ignore_errors=True)
         shutil.copytree(source, destination)
-        (destination / "_bitarray.c").unlink()
+        # (destination / "_bitarray.c").unlink()
 
     def biglink(self):
         dirs = []
