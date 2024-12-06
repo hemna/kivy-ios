@@ -6,7 +6,7 @@ import os
 
 
 class APRSDRecipe(PythonRecipe):
-    version = "master"
+    version = "3.4.4"
     url = "https://github.com/craigerl/aprsd/archive/master.zip"
 
     depends = ["python"]
