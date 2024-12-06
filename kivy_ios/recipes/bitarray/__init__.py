@@ -15,7 +15,7 @@ class BitarrayRecipeA(PythonRecipe):
 
 
 class BitarrayRecipeB(PythonRecipe):
-    version = "latest"
+    version = "3.0.0"
     url = "https://pypi.python.org/packages/source/b/bitarray/bitarray-{version}.tar.gz"
     depends = ["hostpython3", "python3"]
     call_hostpython_via_targetpython = False
@@ -33,7 +33,7 @@ class BitarrayRecipeB(PythonRecipe):
 
 
 class BitarrayRecipeC(Recipe):
-    version = "latest"
+    version = "3.0.0"
     url = "https://pypi.python.org/packages/source/b/bitarray/bitarray-{version}.tar.gz"
     depends = ["hostpython3", "python3"]
     library = "bitarray.a"
